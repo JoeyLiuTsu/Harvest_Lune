@@ -8,7 +8,7 @@ public class Home : MonoBehaviour
     bool spawnCheck;
     void Start()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 4; i++)
         {
             Instantiate(worker, transform.position, Quaternion.identity);
         }
